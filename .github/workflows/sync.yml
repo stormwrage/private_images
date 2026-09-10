@@ -27,6 +27,7 @@ jobs:
         images:
           #- { source: "nginx:alpine", target: "nginx:alpine" }
           - { source: "ghcr.io/goauthentik/server:2026.5.4", target: "goauthentik-server:2026.5.4" }
+          - { source: "gtstef/filebrowser:stable", target: "filebrowser:stable" }
           
     steps:
     - name: 登录国内阿里云镜像仓库
