@@ -30,6 +30,7 @@ jobs:
           - { source: "gtstef/filebrowser:stable", target: "filebrowser:stable" }
           - { source: "authelia/authelia:latest", target: "authelia:latest" }
           - { source: "tailscale/tailscale:latest", target: "tailscale:latest" }
+          - { source: "ghcr.io/gtsteffaniak/filebrowser:beta", target: "filebrowser:beta" }
           
     steps:
     - name: 登录国内阿里云镜像仓库
