@@ -32,6 +32,15 @@ jobs:
           - { source: "tailscale/tailscale:latest", target: "tailscale:latest" }
           - { source: "ghcr.io/gtsteffaniak/filebrowser:beta", target: "filebrowser:beta" }
           - { source: "syncthing/syncthing:latest", target: "syncthing:latest" }
+          - { source: "cloudflare/cloudflared:latest", target: "cloudflared:latest" }
+          - { source: "lscr.io/linuxserver/swag:latest", target: "swag:latest" }
+          - { source: "redis:latest", target: "redis:latest" }
+          - { source: "superng6/qbittorrentee:latest", target: "qbittorrentee:latest" }
+          - { source: "postgres:17", target: "postgres:17" }
+          - { source: "postgres:18", target: "postgres:18" }
+          - { source: "linuxserver/nextcloud:latest", target: "nextcloud:latest" }
+          - { source: "onlyoffice/documentserver:9.4", target: "documentserver:9.4" }
+          - { source: "linuxserver/duckdns:latest", target: "duckdns:latest" }
           
     steps:
     - name: 登录国内阿里云镜像仓库
