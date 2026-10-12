@@ -29,6 +29,7 @@ jobs:
           - { source: "ghcr.io/goauthentik/server:2026.5.4", target: "goauthentik-server:2026.5.4" }
           - { source: "gtstef/filebrowser:stable", target: "filebrowser:stable" }
           - { source: "authelia/authelia:latest", target: "authelia:latest" }
+          - { source: "tailscale/tailscale:latest", target: "tailscale:latest" }
           
     steps:
     - name: 登录国内阿里云镜像仓库
