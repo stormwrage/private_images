@@ -41,6 +41,13 @@ jobs:
           - { source: "linuxserver/nextcloud:latest", target: "nextcloud:latest" }
           - { source: "onlyoffice/documentserver:9.4", target: "documentserver:9.4" }
           - { source: "linuxserver/duckdns:latest", target: "duckdns:latest" }
+          - { source: "ghcr.io/getarcaneapp/manager:latest", target: "arcane:latest" }
+          - { source: "p3terx/aria2-pro:latest", target: "aria2-pro:latest" }
+          - { source: "lscr.io/linuxserver/heimdall:latest", target: "heimdall:latest" }
+          - { source: "navidrome/navidrome:latest", target: "navidrome:latest" }
+          - { source: "openlistteam/openlist:latest", target: "openlist:latest" }
+          - { source: "ghcr.io/v2raya/v2raya:latest", target: "v2raya:latest" }
+          - { source: "uroni/urbackup-server:latest", target: "urbackup-server:latest" }
           
     steps:
     - name: 登录国内阿里云镜像仓库
