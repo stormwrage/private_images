@@ -48,6 +48,7 @@ jobs:
           - { source: "openlistteam/openlist:latest", target: "openlist:latest" }
           - { source: "ghcr.io/v2raya/v2raya:latest", target: "v2raya:latest" }
           - { source: "uroni/urbackup-server:latest", target: "urbackup-server:latest" }
+          - { source: "opencloudeu/opencloud-rolling:latest", target: "opencloud-rolling:latest" }
           
     steps:
     - name: 登录国内阿里云镜像仓库
