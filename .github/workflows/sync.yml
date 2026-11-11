@@ -31,7 +31,7 @@ jobs:
           - { source: "authelia/authelia:latest", target: "authelia:latest" }
           - { source: "tailscale/tailscale:latest", target: "tailscale:latest" }
           - { source: "ghcr.io/gtsteffaniak/filebrowser:beta", target: "filebrowser:beta" }
-          - { source: "syncthing/syncthing:latest", target: "syncthing:latest" }
+          - { source: "linuxserver/syncthing:latest", target: "syncthing:latest" }
           - { source: "cloudflare/cloudflared:latest", target: "cloudflared:latest" }
           - { source: "lscr.io/linuxserver/swag:latest", target: "swag:latest" }
           - { source: "redis:latest", target: "redis:latest" }
