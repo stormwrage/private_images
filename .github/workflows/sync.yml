@@ -26,7 +26,7 @@ jobs:
       matrix:
         images:
           #- { source: "nginx:alpine", target: "nginx:alpine" }
-          - { source: "ghcr.io/goauthentik/server:2026.5.4", target: "goauthentik-server:2026.5.4" }
+          - { source: "ghcr.io/goauthentik/server:2026.8", target: "goauthentik-server:2026.8" }
           - { source: "gtstef/filebrowser:stable", target: "filebrowser:stable" }
           - { source: "authelia/authelia:latest", target: "authelia:latest" }
           - { source: "tailscale/tailscale:latest", target: "tailscale:latest" }
@@ -37,9 +37,9 @@ jobs:
           - { source: "redis:latest", target: "redis:latest" }
           - { source: "superng6/qbittorrentee:latest", target: "qbittorrentee:latest" }
           - { source: "postgres:17", target: "postgres:17" }
-          - { source: "postgres:18", target: "postgres:18" }
+          - { source: "postgres:latest", target: "postgres:latest" }
           - { source: "linuxserver/nextcloud:latest", target: "nextcloud:latest" }
-          - { source: "onlyoffice/documentserver:9.4", target: "documentserver:9.4" }
+          - { source: "onlyoffice/documentserver:latest", target: "documentserver:latest" }
           - { source: "linuxserver/duckdns:latest", target: "duckdns:latest" }
           - { source: "ghcr.io/getarcaneapp/manager:latest", target: "arcane:latest" }
           - { source: "p3terx/aria2-pro:latest", target: "aria2-pro:latest" }
